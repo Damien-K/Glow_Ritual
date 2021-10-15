@@ -28,9 +28,13 @@
 }
 
 .logobar {
+    height: 100px;
     display: flex ;
     justify-content: space-between;
+    height: 50px;
     padding: 15px 0;
+    align-items: center;
+
 }
 
 .logo {
@@ -43,22 +47,23 @@
 }
 
 .searchbar {
+
     display: flex;
     width: 900px;
     background: darkorange;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    
 }
 
 .search {
     width: 800px;
     border: none;
     background: white;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    height: 40px;
 }
 .srcbtn {
-    background-color: rgb(0, 175, 239);
+background-color: rgb(0, 175, 239);
 color: rgb(255, 255, 255);
 font-weight: 400;
     width: 300px;
