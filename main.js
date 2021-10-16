@@ -2,6 +2,8 @@ const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
+const item = document.querySelector(".carousel-slide");
+
 
 //counter 
 let counter = 1
@@ -45,3 +47,43 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 
 });
+
+prevBtn.addEventListener("mouseover", ()=>{
+
+    console.log('ssup')
+    item.classList.remove("marquee");
+
+}) ;
+
+nextBtn.addEventListener("mouseover", ()=>{
+
+    console.log('ssup')
+    item.classList.remove("marquee");
+
+}) ;
+
+
+item.addEventListener("mouseover", ()=>{
+
+    console.log('ssup')
+    item.classList.remove("marquee");
+
+}) ;
+item.addEventListener("mouseout", ()=>{
+
+    console.log('ssup')
+    item.classList.add("marquee");
+
+}) ;
+// function func()
+// {  // not needed since item is already global, 
+//    // I am assuming this is here just because it's sample code?
+//    // var item = document.getElementById("button"); 
+  
+// }
+
+// function func1()
+// {  
+//     item.element.classList.add("marquee");
+// }
+

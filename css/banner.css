@@ -43,3 +43,25 @@
     cursor: pointer;
 
 }
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0) ;
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0) ;
+    }
+}
+
+
+.marquee {
+    white-space: nowrap
+}
+
+.marquee img {
+    animation: scroll 30s infinite linear;
+}
+
+
+
+
