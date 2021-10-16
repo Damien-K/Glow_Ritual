@@ -50,7 +50,7 @@
 
     display: flex;
     width: 900px;
-    background: darkorange;
+    background: hsl(0, 17%, 95%);;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     
