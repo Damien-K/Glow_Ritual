@@ -1,0 +1,31 @@
+.foot-nav {
+border: 1px solid rgb(234, 234, 234);
+border-left: none;
+border-right: none;
+padding: 0px 30px;
+margin: 0px 400px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.useful-links li  {
+list-style-type: none;
+cursor: pointer;
+padding: 5px 20px;
+}
+
+.useful-links li a { 
+text-decoration: none;
+justify-content: center;
+
+
+}
+
+.col-tittle {
+    font-size: large;
+    font-family: Roboto, Lato;
+    color: rgb(29, 29, 29);
+    padding: 10px ;
+}
+

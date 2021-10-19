@@ -1,0 +1,17 @@
+.feedbacks {
+    position: relative;
+}
+
+.feedbacks p {
+position: absolute;
+left: 50%; 
+transform: translateX(-50%); 
+font-size: x-large;
+font-family: Roboto, Lato;
+padding: 10px 10px;
+}
+
+.fbox {
+
+    
+}

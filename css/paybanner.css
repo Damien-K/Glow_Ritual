@@ -1,0 +1,29 @@
+.pay {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px;
+}
+
+.payoptions {
+    padding-top: 5px;
+
+}
+
+.payoptions h3 {
+
+    font-size: x-large;
+    font-family: Roboto, Lato;
+    padding: 10px 10px;
+}
+
+.pay-logo {
+padding: 20px 10px;
+}
+.fab {
+    font-size: xx-large;   
+}
+
+
+.certifications img {
+padding: 0px 40px;} 

@@ -1,0 +1,43 @@
+.deliver {
+display: flex;
+justify-content: space-between;
+padding: 40px 130px;
+}
+
+
+.shipping h3 {
+padding: 10px 10px;
+font-size: x-large;
+font-family: Roboto, Lato;
+}
+
+.shipping p {
+padding-left: 50px;    
+}
+
+
+.cod h3 {
+padding: 10px 10px;
+font-size: x-large;
+font-family: Roboto, Lato;
+}
+
+.cod p {
+padding-left: 50px;    
+}
+
+.contact {
+margin: 0px 20px;
+}
+
+.contact h3 {
+font-size: x-large;
+font-family: Roboto, Lato;
+}
+
+.contact button {
+font-size: large;
+font-family: Roboto, Lato;
+margin: 10px 90px;
+
+}

@@ -1,0 +1,44 @@
+.footer {
+display: flex;   
+justify-content: center; 
+text-align: center;
+
+font-family: Roboto, Lato;
+color: rgb(29, 29, 29);
+}
+
+.foot-box {
+ width: 100%;   
+ border-top: 3px solid rgb(234, 234, 234);
+ border-bottom: 3px solid rgb(234, 234, 234);
+ padding: 10PX 0 ;    
+
+}
+
+.foot-box h3 {
+    font-family: Roboto, Lato;
+    font-size: large;
+}
+
+.social {
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: xx-large;
+padding: 1rem 0px;
+
+}
+
+.social a {
+padding: 0 40px  ;
+}
+
+.copyright {
+font-family: Roboto, Lato;
+padding-top: 10px;    
+vertical-align: middle;
+justify-content: center;    
+border-top: 3px solid rgb(234, 234, 234);
+font-size: larger;
+
+}

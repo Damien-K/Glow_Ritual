@@ -1,2 +1,12 @@
 @import 'nav.css';
-@import 'banner.css'
+@import 'banner.css';
+@import 'footer.css';
+@import 'footnav.css';
+@import 'paybanner.css';
+@import 'deliver.css';
+@import 'feedback.css';
+
+
+body {
+    justify-content: center;
+}
