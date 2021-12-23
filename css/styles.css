@@ -5,8 +5,15 @@
 @import 'paybanner.css';
 @import 'deliver.css';
 @import 'feedback.css';
+@import 'products.css';
 
 
-body {
-    justify-content: center;
+* {
+    box-sizing: border-box  ;
 }
+
+html, body {
+    background: #eee5e9;
+}
+
+

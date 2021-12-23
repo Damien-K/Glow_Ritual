@@ -1,17 +1,55 @@
-.feedbacks {
-    position: relative;
+
+.feed {
 }
 
-.feedbacks p {
-position: absolute;
-left: 50%; 
-transform: translateX(-50%); 
-font-size: x-large;
-font-family: Roboto, Lato;
-padding: 10px 10px;
+.feed-container {
+   display: flex; 
+   width: auto;
+   /* width: 1900px; */
+   justify-content: space-between;
+
 }
 
 .fbox {
+padding: 40px 60px;
+width: 400px;
 
-    
 }
+
+
+.feedbacks {
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+.cards {
+    display: flex;
+    width: 2800px;
+   
+}
+
+.fbox {
+    
+position: absolute;    
+padding: 30px 30px;
+max-height: 300px;
+width: 400px;
+
+}
+
+.fttl {
+
+font-size: large;
+font-family: Roboto, Lato;
+padding: 10px 10px;
+} */
