@@ -1,31 +1,134 @@
 .foot-nav {
-border: 1px solid rgb(234, 234, 234);
-border-left: none;
-border-right: none;
-padding: 0px 30px;
-margin: 0px 400px;
-display: flex;
-justify-content: space-between;
-
+background-color: #24262b;
+box-sizing: border-box;
+padding: 70px 0S;
 }
 
-.useful-links li  {
-list-style-type: none;
-cursor: pointer;
-padding: 5px 20px;
+
+.fcont {
+max-width: 1170px;
+margin: auto;
 }
 
-.useful-links li a { 
-text-decoration: none;
-justify-content: center;
-
-
+.fcont .frow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-.col-tittle {
-    font-size: large;
-    font-family: Roboto, Lato;
-    color: rgb(29, 29, 29);
-    padding: 10px ;
+.fcont .frow .fcol {
+    width: 25%;
+    padding: 0 15px;
 }
+
+.fcont .frow .fcol h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.fcont .frow .fcol h4::before {
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 35%;
+} 
+
+.fcont .frow .fcol ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.fcont .frow .fcol ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.fcont .frow .fcol ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;    
+}
+
+.fcont .frow .fcol ul li a:hover { 
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+
+
+.fcont .frow .fcol .social-links a { 
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;    
+}
+
+.fcont .frow .fcol .social-links a i { 
+padding: 8px;
+}
+
+
+.fcont .frow .fcol .social-links a:hover { 
+color: #24262b;
+background-color: #ffffff;
+}
+
+
+@media (max-width: 767px) {
+    .fcol {
+        width: 50%;
+        padding: 30px;
+    }
+    
+}
+
+@media (max-width: 574px) {
+    .fcol {
+        width: 100%;
+        padding: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,43 +1,152 @@
 .deliver {
+max-width: 94%;
+margin: auto;
+box-sizing: border-box;    
 display: flex;
 justify-content: space-between;
-padding: 40px 130px;
+padding: 80px 10px;
+background: black;
+}
+.deliver .dcol {
+    position: relative;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.deliver .dcol span:nth-child(1){
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 2px solid #fff;
+border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+transition: 0.5s;
+animation: animate 6s linear infinite;
+}
+
+.deliver .dcol:hover span:nth-child(1){
+    border: none;
+     background: rgba(0, 0, 255, 0.8);
+
+}
+
+.deliver .dcol span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+
+    }
+    
+    .deliver .dcol:hover span:nth-child(2){
+        border: none;
+         background: rgba(0, 0, 255, 0.8);
+    
+    }
+
+
+    .deliver .dcol span:nth-child(3){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #fff;
+        border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+        transition: 0.5s;
+        animation: animate2 10s linear infinite;
+        
+        }
+        
+        .deliver .dcol:hover span:nth-child(3){
+            border: none;
+             background: rgba(0, 0, 255, 0.8);
+        
+        }   
+        
+@keyframes animate {
+0% {
+    transform: rotate(0deg);
+}
+
+100% {
+    transform: rotate(360deg);
+}
+}  
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+    }  
+
+.deliver .dcol:hover {
+    color: #ffffff;
+}
+
+.deliver .dcol:hover span:nth-child(1){
+    border: none;
+     background: rgba(0, 0, 255, 0.8);
+
+}
+
+.deliver .dcol .shipping {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    transition: .5s ;
+
 }
 
 
-.shipping h3 {
-padding: 10px 10px;
+.deliver .shipping h3 {
 font-size: x-large;
 font-family: Roboto, Lato;
 }
 
-.shipping p {
-padding-left: 50px;    
+.deliver .shipping h3 i {
+font-weight: 900;
+}
+
+.deliver .shipping p {
+font-size: xx-large;
+}
+
+.deliver .dcol .cod {
+    padding-top: 50px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    transition: .5s ;
 }
 
 
-.cod h3 {
-padding: 10px 10px;
-font-size: x-large;
+.deliver .dcol .cod h3 {
+font-size: xx-large;
 font-family: Roboto, Lato;
+
 }
 
-.cod p {
-padding-left: 50px;    
+.deliver .cod p {
+font-size: xx-large;
 }
 
-.contact {
-margin: 0px 20px;
-}
 
-.contact h3 {
-font-size: x-large;
-font-family: Roboto, Lato;
-}
-
-.contact button {
-font-size: large;
-font-family: Roboto, Lato;
-margin: 10px 90px;
-
+.deliver .dcol .payoptions {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    transition: .5s ;~
 }

@@ -6,14 +6,9 @@
 @import 'deliver.css';
 @import 'feedback.css';
 @import 'products.css';
+@import 'prolist.css'
 
 
-* {
-    box-sizing: border-box  ;
-}
 
-html, body {
-    background: #eee5e9;
-}
 
 
