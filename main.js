@@ -3,18 +3,21 @@ const carouselImages = document.querySelectorAll('.carousel-slide img');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 const item = document.querySelector(".carousel-slide");
-const cardclick = document.querySelector(".product-card");
-
-
-
-
+const cardclick = document.querySelectorAll(".product-card");
 
 
 // click to go to product page
 
-cardclick.addEventListener('click', () => {
+document.querySelectorAll(".product-card").forEach(elem => elem.addEventListener("click",
+ () => {
+    window.location.href = "backend/product.html";
+  }));
 
-window.location.href = "backend/product.html"
+
+
+// cardclick.addEventListener('click', () => {
+
+// window.location.href = "backend/product.html"
 
     // if (counter >= carouselImages.length - 1) {
     //     return;
@@ -23,7 +26,7 @@ window.location.href = "backend/product.html"
     // carouselSlide.style.transition = "transform 0.4s ease-in-out";
     // counter++;
     // carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-});
+// });
 
 
 
@@ -177,16 +180,16 @@ function initParadoxWay() {
 // bubbles -----------------
     
     
-    setInterval(function () {
-        var size = randomValue(sArray);
-        $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
-        $('.individual-bubble').animate({
-            'bottom': '100%',
-            'opacity': '-=0.7'
-        }, 4000, function () {
-            $(this).remove()
-        });
-    }, 350);
+//     setInterval(function () {
+//         var size = randomValue(sArray);
+//         $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
+//         $('.individual-bubble').animate({
+//             'bottom': '100%',
+//             'opacity': '-=0.7'
+//         }, 4000, function () {
+//             $(this).remove()
+//         });
+//     }, 350);
     
 }
 
