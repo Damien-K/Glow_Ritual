@@ -3,6 +3,37 @@ const carouselImages = document.querySelectorAll('.carousel-slide img');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 const item = document.querySelector(".carousel-slide");
+const cardclick = document.querySelector(".product-card");
+
+
+
+
+
+
+// click to go to product page
+
+cardclick.addEventListener('click', () => {
+
+window.location.href = "backend/product.html"
+
+    // if (counter >= carouselImages.length - 1) {
+    //     return;
+    // }
+
+    // carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    // counter++;
+    // carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
+
+
+
+
+
+
+
+
+
+
 
 
 //counter 
@@ -163,3 +194,8 @@ function initParadoxWay() {
 $(document).ready(function () {
     initParadoxWay();
 });
+
+
+
+
+
